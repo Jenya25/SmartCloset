@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Smart Closet</string>
+    <string name="self_destruct" />
+
+    <!-- ... -->
+    <string name="facebook_application_id" translatable="false">797723753714122</string>
+    <!-- Facebook Application ID, prefixed by 'fb'.  Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb797723753714122</string>
+
+    <string name="Under_construction">Under Construction!!!</string>
+
+    <string name="Fuzzy_Wazzy">&quot;Fuzzy Wazzy Was a Bear,
+        Fuzzy Wazzy Had No Hair,
+        Fuzzy Wazzy Wasn't Fuzzy,
+        Was He?&quot;</string>
+
+    <!-- Main -->
+    <string name="LogoutBtn">Logout</string>
+    <string name="EventBtn">Events</string>
+    <string name="ClosetBtn">Closet</string>
+    <string name="StyleBntn">Style</string>
+    <string name="Main_sub_headline">Tip of the day:</string>
+
+    <!-- Style -->
+
+    <!-- Closet -->
+    <string name="OutfitsBtn">Outfits</string>
+    <string name="Closet_headline">My Closet</string>
+    <string name="AddClothesBtn">Add Clothes</string>
+
+    <!-- Outfits -->
+    <string name="Outfits_sub_headline">Grid of outfits</string>
+    <string name="CreateOutfitBtn">Create Outfit</string>
+
+    <!-- Add Clothes -->
+    <string name="AddClothes_headline">Please fill the info:</string>
+    <string-array name="AddClothes_category_array">
+        <item>Choose a category:</item>
+        <item>Tops, Blouses &amp; T-shirts</item>
+        <item>Sweaters</item>
+        <item>Bottoms &amp; Skirts</item>
+        <item>Dresses &amp; Overalls</item>
+        <item>Coats &amp; Jackets</item>
+        <item>Shoes</item>
+    </string-array>
+    <string-array name="AddClothes_sleeveLength_array">
+        <item>Sleeveless</item>
+        <item>Cap Sleeve</item>
+        <item>Short Sleeve</item>
+        <item>Three-quarter Sleeve</item>
+        <item>Long Sleeve</item>
+    </string-array>
+    <string-array name="AddClothes_itemLength_array">
+        <item>Short</item>
+        <item>Medium length</item>
+        <item>Three-quarter</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="AddClothes_fabric_array">
+        <item>Cotton</item>
+        <item>Denim</item>
+        <item>Fur / Faux Fur</item>
+        <item>Lace / Net</item>
+        <item>Leather / Sintetic Leather</item>
+        <item>Polyester</item>
+        <item>Satin</item>
+        <item>Silk</item>
+        <item>Velvet</item>
+        <item>Viscose</item>
+        <item>Wool / Yarn</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="AddClothes_shoesType_array">
+        <item>Flats</item>
+        <item>Low heels</item>
+        <item>High heals</item>
+        <item>Boots</item>
+    </string-array>
+
+    <!-- Events -->
+    <string name="CreateEventBtn">Create Event</string>
+    <string name="Events_sub_headline">List of current events:</string>
+
+
+
+
+</resources>

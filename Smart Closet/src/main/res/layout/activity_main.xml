@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/linearLayout">
+        <Button
+            android:id="@+id/EventsBtn"
+            style="@android:style/Widget.Button.Small"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EventBtn" />
+
+        <Button
+            android:id="@+id/ClosetBtn"
+            style="@android:style/Widget.Button.Small"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ClosetBtn" />
+
+        <Button
+            android:id="@+id/StyleBtn"
+            style="@android:style/Widget.Button.Small"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/StyleBntn" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/MainLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/Main_sub_headline" />
+
+    <TextView
+        android:id="@+id/TodayStyleTxt"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:text="@string/Fuzzy_Wazzy" />
+
+    <Button
+        android:id="@+id/LogoutBtn"
+        style="@android:style/Widget.Button.Small"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LogoutBtn" />
+
+</RelativeLayout>

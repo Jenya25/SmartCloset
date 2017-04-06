@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <Button
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Add"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/MainLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photo"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/AddClothes_headline" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainLbl"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/categories"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp">
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/FieldsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/categories"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="90dp"
+        android:visibility="gone"
+        android:layout_marginStart="90dp">
+
+        <TextView
+            android:id="@+id/nameLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"/>
+
+        <EditText
+            android:id="@+id/nameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/colorLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color:"/>
+
+        <EditText
+            android:id="@+id/colorField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/topsBlousesTshirts">
+
+
+            <TextView
+                android:id="@+id/fabricLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fabric:"/>
+
+            <Spinner
+                android:id="@+id/fabricField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/sleeveLengthLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleeve Length:"/>
+
+            <Spinner
+                android:id="@+id/sleeveLengthField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/sweaters"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@id/fabricLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fabric:"/>
+
+            <Spinner
+                android:id="@id/fabricField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@id/sleeveLengthLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleeve Length:"/>
+
+            <Spinner
+                android:id="@id/sleeveLengthField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/bottomsSkirts"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@id/fabricLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fabric:"/>
+
+            <Spinner
+                android:id="@id/fabricField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/itemLengthLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Length:"/>
+
+            <Spinner
+                android:id="@+id/itemLengthField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:id="@+id/dressesOveralls"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@id/fabricLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fabric:"/>
+
+            <Spinner
+                android:id="@id/fabricField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@id/itemLengthLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Length:"/>
+
+            <Spinner
+                android:id="@id/itemLengthField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@id/sleeveLengthLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleeve Length:"/>
+
+            <Spinner
+                android:id="@id/sleeveLengthField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:id="@+id/coatsJackets"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@id/fabricLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fabric:"/>
+
+            <Spinner
+                android:id="@id/fabricField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@id/itemLengthLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Length:"/>
+
+            <Spinner
+                android:id="@id/itemLengthField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@id/sleeveLengthLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleeve Length:"/>
+
+            <Spinner
+                android:id="@id/sleeveLengthField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/shoes"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/shoesTypeLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shoes type:"/>
+
+            <Spinner
+                android:id="@+id/shoesTypeField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/descriptionLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:"/>
+
+        <EditText
+            android:id="@+id/descriptionField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </LinearLayout>
+</RelativeLayout>
