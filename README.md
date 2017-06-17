@@ -2,7 +2,8 @@
 
 # **Installation guide:**
 
-1. download SmartCloset.apk from this project
+1. download SmartCloset.apk from this project. 
+   you can use this link: https://github.com/Jenya25/SmartCloset/raw/master/Smart%20Closet.apk
 
 2. allow install from unknown sources in your phone.
 
